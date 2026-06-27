@@ -3901,6 +3901,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,supl"
+    />    
     <apn
         mcc="311"
         mnc="480"
