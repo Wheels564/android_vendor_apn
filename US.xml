@@ -3902,7 +3902,7 @@
         roaming_protocol="IPV4V6"
         type="default,dun,supl"
     />
-        <apn
+    <apn
         mcc="311"
         mnc="480"
         carrier="Warp 2"
