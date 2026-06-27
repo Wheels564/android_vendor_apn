@@ -3901,7 +3901,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,supl"
-    <!-- Default Data & MMS -->
     <apn
         mcc="311"
         mnc="480"
