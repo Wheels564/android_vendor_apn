@@ -3901,7 +3901,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="default,dun,supl"
-    />
+    <!-- Default Data & MMS -->
     <apn
         mcc="311"
         mnc="480"
@@ -3909,7 +3909,7 @@
         apn="vzwinternet"
         mmsc="http://mms.vtext.com/servlets/mms"
         mmsport="80"
-        type="default,supl"
+        type="default,supl,mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         carrier_id="2641"
@@ -3948,25 +3948,13 @@
         apn="VZWAPP"
         mmsc="http://mms.vtext.com/servlets/mms"
         mmsport="80"
-        type="cbs,mms"
+        type="cbs"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         carrier_id="2641"
         mvno_type="gid"
         mvno_match_data="BA01500000000000"
-    />
-    <apn
-        mcc="311"
-        mnc="480"
-        carrier="Warp WiFi Calling"
-        apn="VZWAPP"
-        type="wfc,emergency"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        carrier_id="2641"
-        mvno_type="gid"
-        mvno_match_data="BA01500000000000"
-    />   
+    />         
     <apn
         mcc="311"
         mnc="480"
